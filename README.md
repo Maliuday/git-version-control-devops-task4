@@ -424,6 +424,8 @@ git log                               # Show commit history
 git log --oneline                     # Compact commit history
 git branch                            # List local branches
 git branch -d branch-name             # Delete local branch
+git checkout -b branch-name           # Create and move to new branch
+git checkout branch-name              # Move to branch
 git add <file>                        # Stage a file
 git add .                             # Stage all changes
 git commit -m "message"               # Commit staged changes

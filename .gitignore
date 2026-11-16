@@ -1,13 +1,26 @@
+
 # Build output
 dist/
 build/
 
-# Logs
+# Log files
 *.log
+logs/
 
-# OS files
+# Operating system files
 .DS_Store
+Thumbs.db
+Desktop.ini
 
-# Editor files
+# IDE and editor files
 .idea/
 .vscode/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.swp
